@@ -3,8 +3,7 @@ export const BOT_NAME: string = 'น้องโควิด';
 export const DDC: string = 'กรมควบคุมโรค';
 export const HEALTH_FACILITY: string = 'กระทรวงสาธารณสุข';
 
-export const DDC_VACCINE_WEBSITE: string =
-    'https://ddc.moph.go.th/vaccine-covid19/';
+
 export const PLUS_SIGN: string = '+';
 export const EMPTY_STRING: string = '';
 export const TOTAL_CONFIRMED_PEOPLE: string = 'ยอดผู้ติดเชื้อทั้งหมด';

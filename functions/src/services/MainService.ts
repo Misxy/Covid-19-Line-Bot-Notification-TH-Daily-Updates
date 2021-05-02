@@ -1,6 +1,6 @@
 import { CovidService } from './CovidService';
 import * as functions from 'firebase-functions';
-import { COVID19_BASE_URL } from '../types/Constants';
+import { COVID19_BASE_URL, DDC_VACCINE_WEBSITE } from '../types/Constants';
 import { LineClient } from 'messaging-api-line';
 import * as messageConstants from '../types/MessageConstants';
 import * as utilsService from '../services/UtilsService';
@@ -81,7 +81,7 @@ export function displayMessageByCondition(
             break;
         case messageConstants.REQUEST_VACCINE_INFO:
             utilsService
-                .getHtmlContent(messageConstants.DDC_VACCINE_WEBSITE)
+                .getHtmlContent(DDC_VACCINE_WEBSITE)
                 .then((response: any) => {
                     utilsService.displayVaccineDailyUpdate(
                         utilsService.getVaccineInformation(response.data),
