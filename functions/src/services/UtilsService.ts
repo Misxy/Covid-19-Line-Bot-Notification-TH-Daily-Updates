@@ -13,7 +13,7 @@ import {
     getBubbleTimelinesTemplates,
 } from '../types/Templates';
 import { Vaccine } from '../types/Vaccine';
-import * as functions from 'firebase-functions';
+
 
 function getReplyToken(requestBody: any): string {
     return requestBody.events[0].replyToken;
@@ -247,7 +247,6 @@ export function getVaccineInformation(htmlContent: any): Vaccine {
         getPercentage(accumulatedSecondDoses),
         getPercentage(allAccumulatedDoses)
     );
-    functions.logger.info('Vaccine is: ', vaccine);
     return vaccine;
 }
 
