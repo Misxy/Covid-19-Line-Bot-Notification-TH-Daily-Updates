@@ -3,7 +3,6 @@ export const BOT_NAME: string = 'น้องโควิด';
 export const DDC: string = 'กรมควบคุมโรค';
 export const HEALTH_FACILITY: string = 'กระทรวงสาธารณสุข';
 
-
 export const PLUS_SIGN: string = '+';
 export const EMPTY_STRING: string = '';
 export const TOTAL_CONFIRMED_PEOPLE: string = 'ยอดผู้ติดเชื้อทั้งหมด';
@@ -19,11 +18,11 @@ export const REQUEST_COVID19_HISTORICAL_DATA: string =
 export const REQUEST_VACCINE_INFO: string =
     'เช็คข้อมูลวัคซีนโควิด-19ล่าสุดให้หน่อย';
 export const RECEIVED_FIRST_DOSES_LABEL: string =
-    'จำนวนผู้ได้รับวัคซีคโดสที่ 1 จากประชากรทั้งประเทศ';
+    'จำนวนผู้ได้รับวัคซีนโดสที่ 1 จากประชากรทั้งประเทศ';
 export const RECEIVED_SECOND_DOSES_LABEL: string =
-    'จำนวนผู้ได้รับวัคซีคโดสที่ 2 จากประชากรทั้งประเทศ';
+    'จำนวนผู้ได้รับวัคซีนโดสที่ 2 จากประชากรทั้งประเทศ';
 export const RECEIVED_ALL_DOSES_LABEL: string =
-    'จำนวนผู้ได้รับวัคซีคทั้ง 2 โดส จากประชากรทั้งประเทศ';
+    'จำนวนผู้ได้รับวัคซีนทั้งหมดในวันนี้ จากประชากรทั้งประเทศ';
 export const RECEIVED_FIRST_DOSES_PERCENT_LABEL: string =
     'เปอร์เซ็นต์สะสมผู้ได้รับวัคซีนโดสที่ 1 จากประชากรทั้งประเทศ';
 export const RECEIVED_SECOND_DOSES_PERCENT_LABEL: string =

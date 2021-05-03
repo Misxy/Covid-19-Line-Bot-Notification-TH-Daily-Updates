@@ -134,7 +134,7 @@ export function getBubbleVaccineTemplates(vaccine: Vaccine): any[] {
                     {
                         type: 'text',
                         text: concatStrings(
-                            vaccine.AllAccumulatedDosesPercent,
+                            vaccine.AccumulatedSecondDosesPercent,
                             messageConstants.PERCENT_SYMBOL
                         ),
                         color: '#ffffff',
@@ -156,7 +156,7 @@ export function getBubbleVaccineTemplates(vaccine: Vaccine): any[] {
                                     },
                                 ],
                                 width: concatStrings(
-                                    vaccine.AllAccumulatedDosesPercent,
+                                    vaccine.AccumulatedSecondDosesPercent,
                                     messageConstants.PERCENT_SYMBOL
                                 ),
                                 backgroundColor: '#fea82f',

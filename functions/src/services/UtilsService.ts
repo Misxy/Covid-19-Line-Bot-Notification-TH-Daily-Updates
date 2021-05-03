@@ -14,7 +14,6 @@ import {
 } from '../types/Templates';
 import { Vaccine } from '../types/Vaccine';
 
-
 function getReplyToken(requestBody: any): string {
     return requestBody.events[0].replyToken;
 }
